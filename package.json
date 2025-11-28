@@ -1,0 +1,19 @@
+{
+  "name": "tirelire-darna",
+  "private": true,
+  "workspaces": [
+    "api-gateway",
+    "auth-service",
+    "darna-service",
+    "frontend",
+    "tirelire-service"
+  ],
+  "scripts": {
+    "frontend": "npm --workspace=frontend",
+    "api": "npm --workspace=api-gateway",
+    "auth": "npm --workspace=auth-service",
+    "darna": "npm --workspace=darna-service",
+    "tirelire": "npm --workspace=tirelire-service",
+    "service": ""
+  }
+}
